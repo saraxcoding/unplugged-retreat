@@ -103,6 +103,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -114,6 +116,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
  
 h3, 
@@ -232,13 +235,16 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 footer .social-icons p i {
-  color: #527158;
   font-size: 1.4em;
 }
 
@@ -535,7 +541,7 @@ input[type=button] {
 
   h3 {
     font-size: 1.5em;
-    line-height: 1em;
+    line-height: 1.25em;
   }
 
   /*Header*/
@@ -627,11 +633,12 @@ input[type=button] {
   }
 
   .reviews article figure, .reviews article div {
-    width: 50%;
+    width: 49%;
   }
 
   .reviews h3 {
     width: 75%;
+    margin: 0;
   }
 
   /*Footer*/
@@ -648,7 +655,7 @@ input[type=button] {
     flex-direction: row;
   }
 
-  footer .contanct {
+  footer .contact {
     margin-bottom: 0;
   }
 
@@ -659,6 +666,11 @@ input[type=button] {
 
   footer p {
     line-height: 1em;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -673,6 +685,7 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
   }
 
   .mission-content p {
@@ -706,7 +719,7 @@ input[type=button] {
   }
 
   .faq-content {
-    flex-basis: 40%;
+    flex-basis: 45%;
   }
 
   .faq h2 {
@@ -714,7 +727,7 @@ input[type=button] {
   }
 
   .faq h4, .faq p {
-      font-size: .875em;
+      font-size: 0.875em;
       line-height: 1em;
   }
   
